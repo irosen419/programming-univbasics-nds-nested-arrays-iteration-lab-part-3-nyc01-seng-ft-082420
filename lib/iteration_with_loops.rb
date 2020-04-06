@@ -9,7 +9,7 @@ def join_nested_strings(src)
     while inner_counter < src[counter].length do
       
       if src[counter][inner_counter] == src[counter][inner_counter].to_s
-        str = str + src[counter][inner_counter]
+        str = str + src[counter][inner_counter] + " "
       end
       
       inner_counter += 1
