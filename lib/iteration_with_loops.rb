@@ -7,8 +7,9 @@ def join_nested_strings(src)
     inner_counter = 0
     str = ""
     while inner_counter < src[counter].length do
+      
       if src[counter][inner_counter] == src[counter][inner_counter].to_s
-        str += src[counter][inner_counter]
+        str = str + src[counter][inner_counter]
       end
       
       inner_counter += 1
