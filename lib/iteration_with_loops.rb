@@ -1,11 +1,11 @@
 def join_nested_strings(src)
 
   counter = 0
+  str = ""
   
   while counter < src.length do
     
     inner_counter = 0
-    str = ""
     while inner_counter < src[counter].length do
       
       if src[counter][inner_counter] == src[counter][inner_counter].to_s
