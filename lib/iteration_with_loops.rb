@@ -16,10 +16,9 @@ def join_nested_strings(src)
     end
     
     counter += 1
-    
-    str
-    
+  
   end
 
+  str
 
 end
